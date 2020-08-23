@@ -1267,6 +1267,14 @@
     prop-types "^15.7.2"
     tslib "^1.11.2"
 
+"@reach/auto-id@0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@reach/auto-id/-/auto-id-0.11.0.tgz#274251c1fbf9cd58d874cfc75fba289d1829368c"
+  integrity sha512-KwwnsnYTbTsYvRbSNqtaA1znaXP9G1I0z+bE0eFMNICvR+bHApaTu0aEEZNXfevq2LBrIMP6hZY9BokgTRcB3g==
+  dependencies:
+    "@reach/utils" "0.11.0"
+    tslib "^2.0.0"
+
 "@reach/auto-id@^0.10.3":
   version "0.10.5"
   resolved "https://registry.yarnpkg.com/@reach/auto-id/-/auto-id-0.10.5.tgz#fa78c71ce2f565ebed1ad91a8d9a685176d23c48"
@@ -1289,6 +1297,14 @@
     prop-types "^15.7.2"
     tslib "^1.11.2"
 
+"@reach/descendants@0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@reach/descendants/-/descendants-0.11.0.tgz#815b094c8a43e21e462b870498d0abf87d1aee0f"
+  integrity sha512-YkkXdAwYuYXlsWEh/mvMqx+ekbOH1tqoBivLe0RxEExvdAmWnVqdT2rVNJ5FvIqWdaVZyrmjWrX2E4OSXIQEFg==
+  dependencies:
+    "@reach/utils" "0.11.0"
+    tslib "^2.0.0"
+
 "@reach/descendants@^0.10.3":
   version "0.10.5"
   resolved "https://registry.yarnpkg.com/@reach/descendants/-/descendants-0.10.5.tgz#2611174e9e9b326dba548356221e2f8c8f5c8612"
@@ -1308,6 +1324,18 @@
     react-focus-lock "^2.3.1"
     react-remove-scroll "^2.3.0"
     tslib "^1.11.2"
+
+"@reach/dialog@^0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@reach/dialog/-/dialog-0.11.0.tgz#052d90b47d07a3f4c21d1b6c2d6aeefc3d5bd6a6"
+  integrity sha512-KOl12NPEwtFMUPWgLq2uoxiirORJ+XdmzrQNNNcwoDqe+oOK8oEqS1E5mUb3+fGQJV37gSrCl1VhD1oGBmlSTQ==
+  dependencies:
+    "@reach/portal" "0.11.0"
+    "@reach/utils" "0.11.0"
+    prop-types "^15.7.2"
+    react-focus-lock "^2.3.1"
+    react-remove-scroll "^2.3.0"
+    tslib "^2.0.0"
 
 "@reach/menu-button@0.10.3":
   version "0.10.3"
@@ -1356,6 +1384,14 @@
     "@reach/utils" "0.10.5"
     tslib "^2.0.0"
 
+"@reach/portal@0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@reach/portal/-/portal-0.11.0.tgz#efb664144bba5fa94de3ffecc0a2d84317321df8"
+  integrity sha512-eCZAIeD/Te29x6xeoGR8bbjlWH2cDMMC9fFH/z/ai+x2LwvHEPdyCfsklivO8Rgwup2u6ziBUtlHFEZxETWjnA==
+  dependencies:
+    "@reach/utils" "0.11.0"
+    tslib "^2.0.0"
+
 "@reach/rect@0.10.5", "@reach/rect@^0.10.3":
   version "0.10.5"
   resolved "https://registry.yarnpkg.com/@reach/rect/-/rect-0.10.5.tgz#ba68722f155b146c6790e7d10a97dca1fd7ab14e"
@@ -1387,6 +1423,17 @@
     prop-types "^15.7.2"
     tslib "^1.11.2"
 
+"@reach/tabs@^0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@reach/tabs/-/tabs-0.11.0.tgz#8e08b4ee8c4b8fdb14e4a35358c3269be14f2aa8"
+  integrity sha512-U6nj/0LkxDyuZcouLRFmopHVb20M0J01TvbSlx6dmeAa6UwbzsCpS//1lyP6e++Z/Z1qa6WWA6NOG0WoZocvnA==
+  dependencies:
+    "@reach/auto-id" "0.11.0"
+    "@reach/descendants" "0.11.0"
+    "@reach/utils" "0.11.0"
+    prop-types "^15.7.2"
+    tslib "^2.0.0"
+
 "@reach/tooltip@0.10.3":
   version "0.10.3"
   resolved "https://registry.yarnpkg.com/@reach/tooltip/-/tooltip-0.10.3.tgz#0f34630aceaba7da7ad2dd23f92cc0d484e7113f"
@@ -1409,10 +1456,26 @@
     tslib "^2.0.0"
     warning "^4.0.3"
 
+"@reach/utils@0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@reach/utils/-/utils-0.11.0.tgz#09ad5e1f42b498253df8a6a4c99ccd0ab2d85464"
+  integrity sha512-A7Ofr1Biq4vUeTBYhbZ/YiLq1B/lEObbEoR2UiuQqCO1r093N95hZNcKqfFwpkRScjD87uob3wSYYGxvq9y/+w==
+  dependencies:
+    "@types/warning" "^3.0.0"
+    tslib "^2.0.0"
+    warning "^4.0.3"
+
 "@reach/visually-hidden@^0.10.2":
   version "0.10.4"
   resolved "https://registry.yarnpkg.com/@reach/visually-hidden/-/visually-hidden-0.10.4.tgz#ab390db0adf759393af4d856f84375468b1df676"
   integrity sha512-GnuPuTRCf+Ih47BoKvGyB+jP8EVWLb04GfbGa5neOrjdp90qrb4zr7pMSL4ZvTsrxt9MRooJA2BhSxs5DbyqCQ==
+  dependencies:
+    tslib "^2.0.0"
+
+"@reach/visually-hidden@^0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@reach/visually-hidden/-/visually-hidden-0.11.0.tgz#a7cd68ea2a197238dfcffbef8723db9117d31ebb"
+  integrity sha512-O67fK7jz01TYu/V57RiDsxKY29ReHdQkpq+OV0ijmXsv7g5r3Nys51Ry+IqPrJst4Ve5xxFbiJsTt/bGwxorrQ==
   dependencies:
     tslib "^2.0.0"
 
@@ -5878,6 +5941,13 @@ got@^9.6.0:
     to-readable-stream "^1.0.0"
     url-parse-lax "^3.0.0"
 
+gotrue-js@^0.9.25:
+  version "0.9.26"
+  resolved "https://registry.yarnpkg.com/gotrue-js/-/gotrue-js-0.9.26.tgz#c5e39fec1539d12893042979435972847a2a5f79"
+  integrity sha512-UC1MIyyjfPxwpyd8X/xeigtUUaHI3+0dXvUEjymBfN3wE2MUfANVyTtO5HMwlBGlEFwbXuH0D1h6EExcvm/nug==
+  dependencies:
+    micro-api-client "^3.2.1"
+
 graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.2, graceful-fs@^4.2.3:
   version "4.2.4"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.4.tgz#2256bde14d3632958c465ebc96dc467ca07a29fb"
@@ -7733,6 +7803,11 @@ methods@~1.1.2:
   resolved "https://registry.yarnpkg.com/methods/-/methods-1.1.2.tgz#5529a4d67654134edcc5266656835b0f851afcee"
   integrity sha1-VSmk1nZUE07cxSZmVoNbD4Ua/O4=
 
+micro-api-client@^3.2.1:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/micro-api-client/-/micro-api-client-3.3.0.tgz#52dd567d322f10faffe63d19d4feeac4e4ffd215"
+  integrity sha512-y0y6CUB9RLVsy3kfgayU28746QrNMpSm9O/AYGNsBgOkJr/X/Jk0VLGoO8Ude7Bpa8adywzF+MzXNZRFRsNPhg==
+
 micromatch@^3.1.10, micromatch@^3.1.4:
   version "3.1.10"
   resolved "https://registry.yarnpkg.com/micromatch/-/micromatch-3.1.10.tgz#70859bc95c9840952f359a068a3fc49f9ecfac23"
@@ -9567,6 +9642,18 @@ react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
+
+react-netlify-identity-widget@^0.2.7:
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/react-netlify-identity-widget/-/react-netlify-identity-widget-0.2.7.tgz#3cb40b122cd3b4cbf8f18a250b2cad471cd5e5cd"
+  integrity sha512-V3Bm1ftA6F8z4qDGDQ001t6EuVDuUYbkFmNePF27ai/qKIqIQAsu1iQZnx14bkEokXj4t2nBJcJmzRdNxp8CZQ==
+
+react-netlify-identity@^0.2.5:
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/react-netlify-identity/-/react-netlify-identity-0.2.5.tgz#8e7a537fe3b3aecf729a9250fe13e232004e330e"
+  integrity sha512-sesi2xI0Me1trECgvxZIweJ+Edx1zoZavY1NjgCTE7bbKhaaw2b2Z7okhdg2YwBj0iRIVSe9qtuSj8gzY5jaNg==
+  dependencies:
+    gotrue-js "^0.9.25"
 
 react-reconciler@^0.24.0:
   version "0.24.0"
