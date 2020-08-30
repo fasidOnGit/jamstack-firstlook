@@ -39,3 +39,9 @@
     font-weight: bold;
     width: 125px;
 }
+
+.delete {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
